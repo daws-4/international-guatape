@@ -70,62 +70,26 @@ export const siteConfigES = {
 
 
 export const siteConfig = {
-  name: "Internaational Guatape. The best site to reserve your next guatapé trip in Medellin Colombia!",
-  description: "Make beautiful websites regardless of your design experience.",
+  name: "International Guatape. The best site to reserve your next guatapé trip in Medellin Colombia!",
+  description: "Escapa del bullicio de la ciudad y sumérgete en el día más colorido de tu viaje por Colombia. Conquista la cima de la imponente Piedra del Peñol, navega por las aguas de un embalse mágico y piérdete en las calles vibrantes del pueblo más encantador de Antioquia. Nosotros nos encargamos de cada detalle para que tú solo te dediques a crear recuerdos inolvidables. ¿Estás listo?",
   navItems: [
     {
-      label: "Home",
+      label: "Inicio",
       href: "/",
     },
     {
-      label: "Docs",
+      label: "Revisa tus reservas",
       href: "/docs",
-    },
-    {
-      label: "Pricing",
-      href: "/pricing",
-    },
-    {
-      label: "Blog",
-      href: "/blog",
-    },
-    {
-      label: "About",
-      href: "/about",
     },
   ],
   navMenuItems: [
     {
-      label: "Profile",
-      href: "/profile",
+      label: "Inicio",
+      href: "/",
     },
     {
-      label: "Dashboard",
+      label: "Revisa tus reservas",
       href: "/dashboard",
-    },
-    {
-      label: "Projects",
-      href: "/projects",
-    },
-    {
-      label: "Team",
-      href: "/team",
-    },
-    {
-      label: "Calendar",
-      href: "/calendar",
-    },
-    {
-      label: "Settings",
-      href: "/settings",
-    },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
     },
   ],
   links: {

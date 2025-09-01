@@ -15,8 +15,10 @@ const tripSchema = new Schema(
       default: 0,
       // Validador personalizado para asegurar que los asientos reservados no superen el total
       validate: {
-        validator: function (value:any) {
-          return value <= this.totalSeats;
+        // CORRECCIÓN: Se añade el tipo de retorno `: boolean` a la función.
+        validator: function (value: number): boolean {
+          // 'this' se refiere al documento actual que se está validando.
+          return value <= (this as any).totalSeats;
         },
         message:
           "Los asientos reservados no pueden exceder el total de asientos.",
